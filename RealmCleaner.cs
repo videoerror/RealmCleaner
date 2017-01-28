@@ -63,7 +63,7 @@ namespace RealmCleaner {
 
 		public static string _Name = "RealmCleaner";
 		public static string _Author = "video_error";
-		public static string _Version = "0.1";
+		public static string _Version = "0.2";
 		public static string NameAndVersionAsBracket = "[" + _Name + " " + _Version + "]";
 
 		public string Name {
