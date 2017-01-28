@@ -116,7 +116,7 @@ namespace RealmCleaner {
 			DateTime lastWorldWriteTime = File.GetLastWriteTimeUtc(Path.Combine(Paths.MapPath, world.MapFileName));
 
 			if(world.IsRealm) {
-				if(lastWorldWriteTime < DateTime.Now.AddMonths(-1)) {
+				if(lastWorldWriteTime < DateTime.Now.AddDays(-1)) {
 					BlockDBEntry[] realmBlockDBEntries = world.BlockDB.Lookup(1);
 
 					if(realmBlockDBEntries.Length == 0) {
