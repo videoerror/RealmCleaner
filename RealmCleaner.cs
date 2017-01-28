@@ -164,7 +164,7 @@ namespace RealmCleaner {
 						Server.RequestGC();
 					}
 				} else {
-					player.Message("&WRealm's last edit time is not greater than a month.");
+					player.Message("&WRealm's last edit time is not greater than a day.");
 				}
 			} else {
 				player.Message("&WWorld is not a realm.");
