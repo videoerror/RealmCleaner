@@ -49,7 +49,7 @@ namespace RealmCleaner {
 
 				Usage = "/RealmClean RealmName",
 				Help = "Cleans a realm by removing the realm if no BlockDB entries are found and" + 
-					   "if the realm's last write date is older than a month.",
+					   "if the realm's last write date is older than a day.",
 
 				NotRepeatable = true,
 
